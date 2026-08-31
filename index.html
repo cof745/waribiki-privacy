@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>割引と還元の計算 / Discount & Cashback Calculator - プライバシーポリシー</title>
+    <style>
+        body {
+            font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Segoe UI', sans-serif;
+            line-height: 1.8;
+            color: #F2E9ED;
+            background: linear-gradient(135deg, #171319 0%, #211C25 100%);
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        h1 {
+            color: #7FB0D8;
+            border-bottom: 3px solid #E86F8A;
+            padding-bottom: 12px;
+            text-align: center;
+            font-size: 2.2em;
+        }
+        h2 {
+            color: #7FB0D8;
+            margin-top: 34px;
+            font-size: 1.15em;
+            border-left: 4px solid #E86F8A;
+            padding-left: 10px;
+        }
+        .content {
+            background: rgba(33, 28, 37, 0.85);
+            padding: 24px;
+            border-radius: 10px;
+            border: 1px solid #372E3B;
+            margin-top: 20px;
+        }
+        .app-name {
+            text-align: center;
+            color: #E86F8A;
+            font-size: 1em;
+            margin-bottom: 6px;
+        }
+        .lang-nav {
+            text-align: center;
+            margin-top: 14px;
+            font-size: 0.95em;
+        }
+        .updated {
+            text-align: center;
+            color: #A08F98;
+            font-size: 0.85em;
+            margin-top: 40px;
+            padding-top: 16px;
+            border-top: 1px solid #372E3B;
+        }
+        a {
+            color: #E86F8A;
+            word-break: break-all;
+        }
+        ul {
+            padding-left: 22px;
+        }
+        li {
+            margin-bottom: 6px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            border: 1px solid #372E3B;
+            padding: 8px 10px;
+            text-align: left;
+            font-size: 0.95em;
+        }
+        th {
+            background: rgba(127, 176, 216, 0.15);
+            color: #7FB0D8;
+            white-space: nowrap;
+        }
+    </style>
+</head>
+<body>
+    <h1>🧮 割引と還元の計算 / Discount & Cashback Calculator</h1>
+    <p class="app-name">com.nisake.waribiki ／ NISAKE GAME</p>
+    <p class="lang-nav"><a href="#ja">日本語</a> ／ <a href="#en">English</a></p>
+
+    <div class="content" id="ja">
+        <h2>プライバシーポリシー</h2>
+        <p>NISAKE GAME（以下「当方」）は、Androidアプリ「割引と還元の計算」（以下「本アプリ」）におけるユーザーの個人情報の取り扱いについて、以下のとおりプライバシーポリシーを定めます。</p>
+
+        <h2>第1条（個人情報の収集）</h2>
+        <p>本アプリは、氏名・メールアドレス・電話番号などの個人を特定できる情報を、当方が直接収集することはありません。ユーザー登録やアカウント作成も必要ありません。ただし、広告配信のために Google Mobile Ads SDK が第2条に記載の情報（IPアドレスを含む）を収集・共有します。IPアドレスはおおよその位置の推定に用いられることがあります。</p>
+
+        <h2>第2条（広告について）</h2>
+        <p>本アプリでは、Google AdMob を使用してアプリ起動時に広告を表示することがあります。広告配信事業者は、ユーザーの興味に応じた広告を表示するために広告識別子（Advertising ID）や Cookie を使用することがあります。</p>
+        <p>広告配信のために、Google Mobile Ads SDK は IPアドレス、アプリの操作状況、診断情報、端末および広告の識別子を収集・共有します。</p>
+        <p>広告のパーソナライズは、端末の「設定」→「Google」→「広告」からいつでもオプトアウトできます。また、EU圏および英国のユーザーには、初回起動時に広告に関する同意画面（Google UMP）を表示します。</p>
+        <p>詳細は Google のプライバシーポリシーをご確認ください。<br>
+        <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p>
+
+        <h2>第3条（データの保存）</h2>
+        <p>本アプリは、以下の情報をユーザーの端末内にのみ保存します。これらが外部に送信されることはありません。</p>
+        <table>
+            <tr><th>保存するもの</th><th>用途</th></tr>
+            <tr><td>履歴（直近5件）</td><td>前に計算した値をすぐ呼び出すため</td></tr>
+            <tr><td>アプリを起動した回数</td><td>初回起動時に広告を表示しないため</td></tr>
+            <tr><td>広告を最後に表示した時刻</td><td>広告の表示間隔をあけるため</td></tr>
+        </table>
+        <p>これらの情報は、アプリをアンインストールすると端末から削除されます。履歴はアプリ内の「消去」からいつでも削除できます。</p>
+        <p>本アプリは、買い物の記録や購入したものの情報を保存しません。入力するのは値段や割引率などの数値だけで、それが何の買い物かを本アプリが知ることはありません。</p>
+
+        <h2>第4条（外部サービスとの連携）</h2>
+        <p>本アプリは、広告配信のために以下の外部サービスと連携しています。</p>
+        <ul>
+            <li>Google AdMob（Google LLC）</li>
+        </ul>
+        <p>本アプリはこれ以外の外部サービスと通信せず、割引の計算はすべて端末内で行われます。</p>
+
+        <h2>第5条（お子様のプライバシー）</h2>
+        <p>本アプリは、13歳未満のお子様から意図的に個人情報を収集することはありません。万一、13歳未満のお子様の個人情報を収集していることが判明した場合は、速やかに削除いたします。</p>
+
+        <h2>第6条（プライバシーポリシーの変更）</h2>
+        <p>当方は、必要に応じて本ポリシーを変更することがあります。変更後のプライバシーポリシーは、本ページに掲載した時点から効力を生じるものとします。</p>
+
+        <h2>第7条（お問い合わせ）</h2>
+        <p>本アプリおよび本ポリシーに関するお問い合わせは、下記までご連絡ください。</p>
+        <p>NISAKE GAME<br>
+        <a href="mailto:nisakegame@gmail.com">nisakegame@gmail.com</a></p>
+    </div>
+
+    <div class="content" id="en">
+        <h2>Privacy Policy</h2>
+        <p>NISAKE GAME ("we") sets out below how personal information is handled in the Android app "Discount & Cashback Calculator" ("the app").</p>
+
+        <h2>1. Collection of personal information</h2>
+        <p>We do not ourselves collect personally identifiable information such as your name, email address or phone number, and no sign-up or account is required. For ad delivery, however, the Google Mobile Ads SDK collects and shares the information listed in Section 2, including your IP address, which may be used to estimate an approximate location.</p>
+
+        <h2>2. Advertising</h2>
+        <p>The app may display an ad when it is opened, delivered through Google AdMob. Advertising providers may use advertising identifiers and cookies in order to show ads relevant to your interests.</p>
+        <p>For ad delivery, the Google Mobile Ads SDK collects and shares your IP address, app interactions, diagnostic information, and device and advertising identifiers.</p>
+        <p>You can opt out of ad personalization at any time from Settings &gt; Google &gt; Ads on your device. Users in the EEA and the UK are shown a consent form (Google UMP) when the app first starts.</p>
+        <p>For details, please see Google's privacy policy:<br>
+        <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p>
+
+        <h2>3. Data stored on your device</h2>
+        <p>The app stores the following on your device only. None of it is transmitted anywhere.</p>
+        <table>
+            <tr><th>What is stored</th><th>Why</th></tr>
+            <tr><td>History (last 5)</td><td>To bring back a calculation you made earlier</td></tr>
+            <tr><td>Number of times the app has been opened</td><td>So no ad is shown on first launch</td></tr>
+            <tr><td>When an ad was last shown</td><td>To keep a gap between ads</td></tr>
+        </table>
+        <p>All of it is removed when you uninstall the app. History can be cleared at any time from within the app.</p>
+        <p>The app keeps no record of your purchases. You type numbers such as a price or a percentage, and the app never learns what the purchase was.</p>
+
+        <h2>4. Third-party services</h2>
+        <p>The app connects to the following third-party service for advertising.</p>
+        <ul>
+            <li>Google AdMob (Google LLC)</li>
+        </ul>
+        <p>The app communicates with no other external service, and every calculation is worked out on your device.</p>
+
+        <h2>5. Children's privacy</h2>
+        <p>The app does not knowingly collect personal information from children under 13. If we learn that we have done so, we will delete it promptly.</p>
+
+        <h2>6. Changes to this policy</h2>
+        <p>We may update this policy as needed. Any updated policy takes effect when it is posted on this page.</p>
+
+        <h2>7. Contact</h2>
+        <p>For questions about the app or this policy, please contact:</p>
+        <p>NISAKE GAME<br>
+        <a href="mailto:nisakegame@gmail.com">nisakegame@gmail.com</a></p>
+
+        <p class="updated">制定日 / Effective: 2026年8月31日 (31 August 2026)<br>最終更新日 / Last updated: 2026年8月31日 (31 August 2026)</p>
+    </div>
+</body>
+</html>
